@@ -1,7 +1,7 @@
 require_relative 'lib/tsearch/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "tsearch"
+  spec.name          = "tsearch-cli"
   spec.license       = "MIT"
   spec.version       = Tsearch::VERSION
   spec.authors       = ["Caio Ramos"]

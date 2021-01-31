@@ -4,7 +4,7 @@
 
 Install it yourself as:
 
-    $ gem install tsearch
+    $ gem install tsearch-cli
 
 ## Usage
 
