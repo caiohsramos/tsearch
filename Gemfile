@@ -3,6 +3,8 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in tsearch.gemspec
 gemspec
 
+gem "rake", "~> 12.0"
+
 gem "rarbg", "~> 2.0"
 
 gem "solargraph", "~> 0.40.2", :group => :development
