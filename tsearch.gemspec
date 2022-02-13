@@ -26,4 +26,12 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency "rake", "~> 12.0"
+  spec.add_dependency "rarbg", "~> 2.0"
+  spec.add_dependency "activesupport", "~> 6.1"
+
+  spec.add_development_dependency "solargraph", "~> 0.40.2"
+  spec.add_development_dependency "rubocop", "~> 1.9"
+  spec.add_development_dependency "byebug", "~> 11.1" 
 end
